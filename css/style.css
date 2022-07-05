@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+
+}
+
+header{
+    /* width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999; */
+    /* background-color: #635666; */
+    position: fixed;
+    right: 10px;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navbar{
+    min-height: 7px;
+    display: flexbox;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    
+}
+
+.nav-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+
+.nav-home{
+    font-size: 2rem;
+}
+
+.nav-link{
+    transition: 0.7s ease;
+}
+
+.nav-link:hover{
+    color: dodgerblue;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+/*#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    background-color: #7D9D9C;
+    text-align: center;
+    line-height: 40px;
+    width: 100px;
+    margin: 4px 2px;
+    border-radius: 16px;
+    border: 2px solid #FFDEDE;
+}
+
+#menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    
+} */
+
+/* #meni li a:hover{
+    text-decoration: none;
+    color: #000000;
+    background-color: #33B5E5;
+} */
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    /* position: relative; */
+}
+
+#home{
+    background-color: #1F4690;
+    background-image: url("../images/LogoLeftUpCorner.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+#about{
+    background-color: #fff;
+    background-image: url("../images/SnakeBruh.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#product{
+    background-color: #fff;
+    background-image: url("../images/SnakeBruh.png");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+#pricing{
+    background-color: #fff;
+    background-image: url("../images/SnakeBruh.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#contact{
+    background-color: #1F4690;
+    height: 50vh;
+}
+
+/* h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #000;
+} */
+
+#contactMenu{
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    list-style: none;
+    margin: 10px;
+    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    /* align-items: center; */
+    /* z-index: 999; */
+}
