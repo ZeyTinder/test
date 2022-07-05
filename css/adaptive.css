@@ -2,6 +2,9 @@
     
 }
 @media screen and (max-width : 768px) {
+    
+    
+    
     .hamburger{
         display: block;
     }
@@ -19,14 +22,16 @@
     .nav-menu{
         position: fixed;
         right: -100%;
-        top: -2px;
+        top: 0;
         gap: 0;
-        flex-direction: column;
-        background-color: #635666;
-        width: 25%;
-        border: 2px solid black;
-        text-align: center;
+        display: block;
+        box-shadow: 0 3px 6px rgba(0,0,0, .36);
+        background-color: #fff;
+        width: 50%;
+        text-align: left;
+        line-height: 40px;
         transition: 0.3s;
+        padding: 0 3%;
     }
 
     nav-item{
@@ -37,6 +42,27 @@
         right: 0;
     }
     
+    #contactMenu{
+        padding: 20px 0;
+        justify-content: space-around;
+        display:block;
+        list-style-type: none;
+        column-count: 2;
+        margin: .5em 0  ;
+    }
+    #smthContact{
+        display: inline-block;
+        
+    }
+
+    header{
+        width: 45px;
+        top: 20px;
+        right: 10px;
+    }
+    .nav-home{
+        display: none;
+    }
 }
 @media screen and (max-width : 420px) {
     
