@@ -147,8 +147,8 @@ section{
 }
 
 #contact{
-    background-color: #1F4690;
-    height: 50vh;
+    background-color: #6E85B7;
+    height: 50%;
 }
 
 /* h1{
@@ -162,14 +162,18 @@ section{
 #contactMenu{
     font-size: 20px;
     font-weight: bold;
-    display: block;
     list-style: none;
     margin: 10px;
-    
-    width: 100%;
+    /* width: 100%; trash space in right place on screen */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 20px 50px;
-    /* align-items: center; */
-    /* z-index: 999; */
+    line-height: 40px;
+    gap: 25px;
+    text-shadow: 2px 2px 16px #000;
+}
+
+span1{
+    color: #000;
+    font-weight: normal;
 }

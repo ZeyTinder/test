@@ -42,18 +42,18 @@
         right: 0;
     }
     
-    #contactMenu{
+    /* #contactMenu{
         padding: 20px 0;
         justify-content: space-around;
         display:block;
         list-style-type: none;
         column-count: 2;
         margin: .5em 0  ;
-    }
-    #smthContact{
+    } */
+    /* #smthContact{
         display: inline-block;
         
-    }
+    } */
 
     header{
         width: 45px;
@@ -64,6 +64,20 @@
         display: none;
     }
 }
-@media screen and (max-width : 420px) {
-    
+
+@media screen and (max-width : 465px){
+    #contactMenu{
+        font-size: 16px;
+        text-shadow: none;
+    }
+}
+
+@media screen and (max-width : 385px) {
+    #contactMenu{
+        font-size: 10px;
+        text-shadow: none;
+    }
+    .material-icons:disabled{
+        display: none;
+    }
 }
