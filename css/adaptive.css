@@ -1,4 +1,4 @@
-@media screen and (max-width : 1024px) {
+@media screen and (max-width : 1200px) {
     
 }
 @media screen and (max-width : 768px) {
@@ -55,29 +55,54 @@
         
     } */
 
-    header{
+    /* header{
         width: 45px;
         top: 20px;
         right: 10px;
-    }
-    .nav-home{
+    } */
+    /* .nav-home{
         display: none;
+    } */
+
+    #home{
+        height: 60vh;
+    }
+
+    #contactMenu{
+        display: grid;
+    }
+
+    h1{
+        margin-top: 10%;
     }
 }
 
-@media screen and (max-width : 465px){
+@media screen and (max-width : 500px){
+    
+    .img-pic{
+        width: 200px;
+        height: 120x;
+    }
+    
     #contactMenu{
         font-size: 16px;
         text-shadow: none;
     }
+
+    h1{
+        margin-top: 15%;
+    }
 }
 
-@media screen and (max-width : 385px) {
+@media screen and (max-width : 400px) {
     #contactMenu{
-        font-size: 10px;
+        font-size: 14px;
         text-shadow: none;
     }
     .material-icons:disabled{
         display: none;
+    }
+    h1{
+        margin-top: 20%;
     }
 }
