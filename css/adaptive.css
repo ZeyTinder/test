@@ -84,6 +84,11 @@
 
 @media screen and (max-width : 500px){
     
+    .catalog{
+        display: flex;
+        flex-direction: column;
+    }
+    
     .img-pic{
         width: 200px;
         height: 120x;
