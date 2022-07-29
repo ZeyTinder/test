@@ -82,11 +82,17 @@
     }
 }
 
-@media screen and (max-width : 500px){
+@media screen and (max-width : 540px){
     
+
+    .catalog{
+        display: flex;
+        flex-direction: column;
+    }
+
     .img-pic{
-        width: 200px;
-        height: 120x;
+        width: 100%;
+        height: 240;
     }
     
     #contactMenu{
@@ -97,6 +103,10 @@
     h1{
         margin-top: 15%;
     }
+
+    .zvon{
+        width: 100%;
+    }
 }
 
 @media screen and (max-width : 400px) {
@@ -104,6 +114,12 @@
         font-size: 14px;
         text-shadow: none;
     }
+
+    .img-pic{
+        width: 100%;
+        height: 180;
+    }
+
     .material-icons:disabled{
         display: none;
     }

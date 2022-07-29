@@ -18,15 +18,15 @@
                     <li class="nav-item">
                         <a href="#home" class="nav-link">Главная</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="#about" class="nav-link">О компании</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a href="#product" class="nav-link">Услуги</a>
                     </li>
-                    <li class="nav-item">
+                    <!-- <li class="nav-item">
                         <a href="#pricing" class="nav-link">Цены</a>
-                    </li>
+                    </li> -->
                     <li class="nav-item">
                         <a href="#contact" class="nav-link">Контакты</a>
                     </li>
@@ -49,21 +49,29 @@
             
         </header>
         <div id="home">
-            <h1>Аренда спецтехники от Промресурс.
-                <p>Территория предоставления услуг – Саратовская обл., на длительные заказы и объекты возможна перебазировка техники в другие города.
+            <h1>Аренда спецтехники от Промресурс
+                <p>Территория предоставления услуг – Саратовская область, на длительные заказы и объекты возможна перебазировка техники в другие города.
                 </p>
                 <img id="bobBack" src="images/BOBCAT-S530-background.png" alt="">
             </h1>
         </div>
         <div id="about">
-            <h2>О Компании
-            <p>Компания Промресурс сотрудничает с такими компаниями как: </p>
+            <!-- <h2>О Компании
+            <p>Компания Промресурс сотрудничает с такими компаниями как:</p>
             </h2>
+            <ul id="partners">
+                <li1>Газпром</li1>
+                <li1>Роснефть</li1>
+                <li1>ФракДжет-Волга</li1>
+                <li1>ЭнгельсТрубЗавод</li1>
+                <li1>СарТрубЗавод</li1>
+            </ul> -->
         </div>
         <div id="product">
+            <h3>Услуги</h3>
             <div class="catalog">
                 <div class="catalog-img">
-                    <a href="images/bobcat-catalog.jpg">
+                    <a>
                         <picture>
                             <img class="img-pic" loading="lazy" src="images/bobcat-catalog.jpg" width="300" heigth="222">
                         </picture>
@@ -77,9 +85,8 @@
                         <tbody>
                             <tr>
                                 <td class="tabl-text">
-                                    <span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui itaque deserunt rem ullam at, molestiae vitae consectetur nobis quasi reprehenderit repellat ad quam adipisci hic quo saepe delectus cumque quas?</span>
+                                    <span>Грузоподъёмность - 850&nbsp;кг. <br> Дополнительные навесы: щётка, вилы, бур. </span>
                                 </td>
-                                <td class="tabl-value">2</td>
                             </tr>
                         </tbody>
                     </table>
@@ -87,52 +94,30 @@
                         <div class="price">
                             <span>Цены узнавать по телефону.</span>
                         </div>
+                        <button onclick="location.href='#contact'" type="button" class="zvon" data-toggle="modal" data-target="#tekhnikaModal">
+                            Заказать
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="catalog">
                 <div class="catalog-img">
-                    <a href="images/agp17.jpg">
+                    <a>
                         <picture>
-                            <img class="img-pic" loading="lazy" src="images/agp17.jpg" width="300" heigth="222">
+                            <img class="img-pic" loading="lazy" src="images/agrp.png" width="300" heigth="222">
                         </picture>
                     </a>
                 </div>
                 <div class="catalog-description">
                     <div class="rent-name">
-                        <a>Автовышка АГРП 17 метров</a>
+                        <a>Автовышка АГРП</a>
                     </div>
                     <table>
                         <tbody>
                             <tr>
                                 <td class="tabl-text">
-                                    <span>Описание</span>
+                                    <span>Грузоподъёмность 250&nbsp;кг. <br> Вылет стрелы 17&nbsp;метров.</span>
                                 </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
                             </tr>
                         </tbody>
                     </table>
@@ -140,12 +125,15 @@
                         <div class="price">
                             <span>Цены узнавать по телефону.</span>
                         </div>
+                        <button onclick="location.href='#contact'" type="button" class="zvon" data-toggle="modal" data-target="#tekhnikaModal">
+                            Заказать
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="catalog">
                 <div class="catalog-img">
-                    <a href="images/galichaninAGRP.jpeg">
+                    <a>
                         <picture>
                             <img class="img-pic" loading="lazy" src="images/galichaninAGRP.jpeg" width="300" heigth="222">
                         </picture>
@@ -159,33 +147,8 @@
                         <tbody>
                             <tr>
                                 <td class="tabl-text">
-                                    <span>Описание</span>
+                                    <span>Вылет стрелы 9,7&minus;21,7&nbsp;метров. <br> Грузоподъёмность 25&nbsp;тонн.</span>
                                 </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
                             </tr>
                         </tbody>
                     </table>
@@ -193,15 +156,18 @@
                         <div class="price">
                             <span>Цены узнавать по телефону.</span>
                         </div>
+                        <button onclick="location.href='#contact'" type="button" class="zvon" data-toggle="modal" data-target="#tekhnikaModal">
+                            Заказать
+                        </button>
                     </div>
                 </div>
             </div>
 
             <div class="catalog">
                 <div class="catalog-img">
-                    <a href="images/evacuator-plat.png">
+                    <a>
                         <picture>
-                            <img class="img-pic" loading="lazy" src="images/evacuator-plat.png" width="300" heigth="222">
+                            <img class="img-pic" loading="lazy" src="images/evakyator-gaz-3309.jpg" width="300" heigth="222">
                         </picture>
                     </a>
                 </div>
@@ -213,33 +179,8 @@
                         <tbody>
                             <tr>
                                 <td class="tabl-text">
-                                    <span>Описание</span>
+                                    <span>Длина 6&nbsp;метров. <br> Грузоподъёмность 5тонн.</span>
                                 </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
                             </tr>
                         </tbody>
                     </table>
@@ -247,14 +188,17 @@
                         <div class="price">
                             <span>Цены узнавать по телефону.</span>
                         </div>
+                        <button onclick="location.href='#contact'" type="button" class="zvon" data-toggle="modal" data-target="#tekhnikaModal">
+                            Заказать
+                        </button>
                     </div>
                 </div>
             </div>
             <div class="catalog">
                 <div class="catalog-img">
-                    <a href="images/kamaz.jpg">
+                    <a>
                         <picture>
-                            <img class="img-pic" loading="lazy" src="images/kamaz.jpg" width="300" heigth="222">
+                            <img class="img-pic" loading="lazy" src="images/KAMAZ-5511.jpg" width="300" heigth="222">
                         </picture>
                     </a>
                 </div>
@@ -266,33 +210,8 @@
                         <tbody>
                             <tr>
                                 <td class="tabl-text">
-                                    <span>Описание</span>
+                                    <span>Грузоподъёмность 10&nbsp;тонн.</span>
                                 </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
-                            </tr>
-                            <tr>
-                                <td class="tabl-text">
-                                    <span>Описание</span>
-                                </td>
-                                <td class="tabl-value">2</td>
                             </tr>
                         </tbody>
                     </table>
@@ -300,6 +219,9 @@
                         <div class="price">
                             <span>Цены узнавать по телефону.</span>
                         </div>
+                        <button onclick="location.href='#contact'" type="button" class="zvon" data-toggle="modal" data-target="#tekhnikaModal">
+                            Заказать
+                        </button>
                     </div>
                 </div>
             </div>
@@ -315,9 +237,9 @@
         </div>
         <div id="contact">
             <ul id="contactMenu">
-                <li id="telephoneContact">Контактный телефон:<br>
+                <li id="telephoneContact">Контакты телефонов:<br>
                 <!-- <i class="material-icons" style="color:darkgreen;text-shadow:2px 2px 4px #000000;">local_phone</i> -->
-                    <span1>+7(8453) 61-13-93 и<br> +79372484820</span1>
+                    <span1>+7(8453)&nbsp;61&minus;13&minus;93 <br> +7(937)&nbsp;248&minus;48&minus;20 <br> +7(8453)&nbsp;77&minus;78&minus;03</span1>
                 </li>
                 <li id="workTime">График работы:<br>
                     <span1>Без&nbsp;выходных<br>8:00-18:00</span1>

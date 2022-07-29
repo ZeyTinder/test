@@ -151,7 +151,7 @@ a{
 
 .tabl-text{
     width: 100%;
-    background-image: url(https://transportrent.ru/bitrix/templates/transport_redisign_copy/img/dotted.gif);
+    /* background-image: url(https://transportrent.ru/bitrix/templates/transport_redisign_copy/img/dotted.gif); */
     background-position: bottom;
     background-repeat: repeat-x;
     background-clip: content-box;
@@ -162,6 +162,8 @@ a{
     font-size: 20px;
     color: red;
     font-weight: bold;
+    display: flex;
+    justify-content: space-between;
 }
 
 #pricing{
@@ -196,7 +198,7 @@ h2{
     top: 25%;
     left: 20%;
     font-size: 28px;
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
 }
 
 h3{
@@ -204,6 +206,7 @@ h3{
     top: 25%;
     left: 20%;
     font-size: 28px;
+    margin-bottom: 10px;
 }
 
 p{
@@ -224,10 +227,21 @@ p{
     padding: 20px 50px;
     line-height: 40px;
     gap: 25px;
-    text-shadow: 2px 2px 16px #000;
+    /* text-shadow: 2px 2px 16px #000; */
 }
 
 span1{
     color: #000;
     font-weight: normal;
+}
+
+.zvon{
+    border: 2px solid red;
+    background: #fff;
+    color: #e91822;
+    align-self: center;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 15px;
+    cursor: pointer;
 }
